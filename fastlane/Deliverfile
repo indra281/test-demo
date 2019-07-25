@@ -1,0 +1,10 @@
+# The Deliverfile allows you to store various App Store Connect metadata
+# For more information, check out the docs
+# https://docs.fastlane.tools/actions/deliver/
+
+skip_screenshots(true)
+skip_metadata(false)
+force(true) #skips html verification
+submit_for_review(false)
+automatic_release(false)
+app_rating_config_path("./fastlane/metadata/app_store_rating_config.json")
