@@ -5,22 +5,12 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.001792">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.00125">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: match" time="7.611872">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="2: ionic" time="82.033301">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="3: upload_to_app_store" time="106.403721">
+      <testcase classname="fastlane.lanes" name="1: match" time="3.175267">
         
       </testcase>
     
