@@ -1,4 +1,4 @@
-app_identifier("com.lh.cicdpoc") # The bundle identifier of your app
+app_identifier("com.lh.cicdpoc1") # The bundle identifier of your app
 apple_id("sasidhar.lanka@lafargeholcim.com") # Your Apple email address
 
 itc_team_id("118496852") # App Store Connect Team ID
