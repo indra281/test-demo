@@ -2,7 +2,7 @@
 # For more information, check out the docs
 # https://docs.fastlane.tools/actions/deliver/
 
-copyright("© #{Time.now.year} Your Company)
+copyright("© #{Time.now.year} Your Company")
 
 price_tier(0)
 
@@ -11,7 +11,7 @@ skip_metadata(false)
 force(true) #skips html verification
 submit_for_review(false)
 automatic_release(false)
-app_rating_config_path("./fastlane/metadata/app_store_rating_config.json")
+app_rating_config_path("./fastlane/metadata/app_rating_config.json")
 
 submission_information({
     export_compliance_encryption_updated: false,
