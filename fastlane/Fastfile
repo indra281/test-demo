@@ -19,9 +19,6 @@ platform :ios do
   desc "Push a new release build to the App Store"
   lane :release do
     match(type: "appstore")
-    puts ENV['SIGH_UUID']
-    app_identifier = CredentialsManager::AppfileConfig.try_fetch_value(:app_identifier)
-    puts app_identifier
     ionic(platform: 'ios',prod: true)
     upload_to_app_store(ipa: ENV['CORDOVA_IOS_RELEASE_BUILD_PATH'])
   end
