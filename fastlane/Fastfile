@@ -22,4 +22,14 @@ platform :ios do
     ionic(platform: 'ios',prod: true)
     upload_to_app_store(ipa: ENV['CORDOVA_IOS_RELEASE_BUILD_PATH'])
   end
+
+  desc "Create app in App Store"
+  lane :create_app do
+    create_app_online(
+      enable_services: {
+        push_notification: "on"
+      }
+    )
+
+  end
 end
